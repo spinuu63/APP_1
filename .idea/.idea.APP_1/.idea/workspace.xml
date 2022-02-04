@@ -7,11 +7,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7a0317e-1b32-4bd9-a072-f5ebd5d17b08" name="Changes" comment="modified program courses">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APP_1/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APP_1/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APP_1/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.APP_1/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="f7a0317e-1b32-4bd9-a072-f5ebd5d17b08" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CyclinRotation/Task2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.APP_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.APP_1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +19,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="24bQ9SuqhQxAtsFOBYOxMgPc1US" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -71,8 +70,24 @@
       <updated>1643896662094</updated>
       <workItem from="1643896670607" duration="4139000" />
       <workItem from="1643902471875" duration="794000" />
-      <workItem from="1643963004602" duration="2979000" />
+      <workItem from="1643963004602" duration="3368000" />
+      <workItem from="1643968603313" duration="8343000" />
     </task>
+    <task id="LOCAL-00001" summary="Start">
+      <created>1643968228905</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643968228905</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Start">
+      <created>1643968377150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1643968377150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,5 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start" />
   </component>
 </project>
