@@ -1,0 +1,20 @@
+Index: Program.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>using System;\r\n\r\nnamespace APP_1\r\n{\r\n    class Program\r\n    {\r\n        static void Main(string[] args)\r\n        {\r\n            Console.WriteLine(\"Hello World!\");\r\n        }\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Program.cs b/Program.cs
+--- a/Program.cs	(revision 2d8c2ed79818863a98ff3c6a203a8fb1e3714ba3)
++++ b/Program.cs	(date 1643899660586)
+@@ -6,7 +6,7 @@
+     {
+         static void Main(string[] args)
+         {
+-            Console.WriteLine("Hello World!");
++            Console.WriteLine("Salutare Lume!!!");
+         }
+     }
+ }
+\ No newline at end of file
