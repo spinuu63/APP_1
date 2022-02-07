@@ -1,4 +1,5 @@
-﻿using System;
+# Exemplu de pull request test1
+using System;
 using System.Linq;
 using APP_1.BinaryGap;
 using APP_1.CyclinRotation;
