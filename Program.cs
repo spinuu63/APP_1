@@ -89,13 +89,14 @@ namespace APP_1
             // Problema 9 nu mi-a reusit sa o realize :(
             
             //Raspunsul programului nr.10
-            int[] arr10 = {1,2,3,4,5};
-            int result10 = Task10.Solution(arr10);
-            Console.WriteLine("Raspunsul Task10: " + result10);
+            // int[] arr10 = {1,2,3,4,5};
+            // int result10 = Task10.Solution(arr10);
+            // Console.WriteLine("Raspunsul Task10: " + result10);
 
             // Raspunsul pentru task-ul nr.11
+            // int[] arr11 = {0, 1, 0, 1, 1};
             // int result11 = Task11.solution(new[] {0, 1, 0, 1, 1});
-            // Console.WriteLine("Raspunsul task-ului 11 este: " + result11);
+            // Console.WriteLine("Raspunsul Task11: " + result11);
 
             // Raspunsul pentru task-ul nr.12 
             // int result12 = Task12.found(6, 11, 2);
