@@ -5,6 +5,7 @@ namespace APP_1.BinaryGap
     public class Task1
     {
         public static int task1(int N) {
+     //Task_1
             int ptr; //Used for bitwise operation.
             for(ptr=1; ptr>0; ptr<<=1) //Find the lowest bit 1
                 if((N&ptr) != 0)
