@@ -27,6 +27,8 @@ namespace APP_1.CyclinRotation
             {
                 return B;
             }
+            
+            
         }
     }
 }
