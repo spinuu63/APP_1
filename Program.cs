@@ -8,6 +8,8 @@ using APP_1.CountDiv;
 using APP_1.OddOccurrencesInArray;
 using APP_1.PermMissingElem;
 using APP_1.TapeEquilibrium;
+using APP_1.FrogJmp;
+using APP_1.FrogRiverOne;
 
 namespace APP_1
 {
@@ -64,28 +66,23 @@ namespace APP_1
             // Console.WriteLine("Raspunsul Task5: " + Task5.Solution(Arr5));
 
             // Raspunsul programului nr.6
-            int[] arr6 = {3, 1, 2, 4, 3};
-            int result6 = Task6.solution(arr6);
-            Console.WriteLine("Raspunsul Task6: " + result6);
+            // int[] arr6 = {3, 1, 2, 4, 3};
+            // int result6 = Task6.solution(arr6);
+            // Console.WriteLine("Raspunsul Task6: " + result6);
 
 
             // Raspunsul programului nr.7
-            // int n = 5, index = 0;
-            // int[] arr7 = {1, 3, 1, 4, 2, 3, 5, 3};
-            // for (int i = 0; i < arr7.Length; i++)
-            // {
-            //     Console.Write ( arr7[i] + "\t");
-            //     if (arr7[i] == n)
-            //     {
-            //         index++;
-            //     }
-            // }
-            // int t = 0;
-            // do
-            // {
-            //     t++;
-            // } while (arr7[t] < n);
-            // Console.WriteLine(t);
+            int[] arr7 = {1, 3, 1, 4, 2, 3, 5, 4};
+            Console.WriteLine("\n---------------------------------");
+            Console.WriteLine("Array-ul initial este: ");
+            for (int i = 0; i < arr7.Length; i++)
+            {
+                Console.Write ( arr7[i] + "\t");
+            }
+            Console.WriteLine("\n---------------------------------");
+            int result7 = Task7.solution7(arr7);
+            Console.WriteLine("Raspunsul Task7: " + result7);
+
 
             // Raspunsul programului nr.10
             // int[] poka = {1,2,3,4,5};
