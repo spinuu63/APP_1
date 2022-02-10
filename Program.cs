@@ -10,6 +10,8 @@ using APP_1.PermMissingElem;
 using APP_1.TapeEquilibrium;
 using APP_1.FrogJmp;
 using APP_1.FrogRiverOne;
+using APP_1.PermCheck;
+using APP_1.MissingInteger;
 
 namespace APP_1
 {
@@ -25,8 +27,6 @@ namespace APP_1
 
             // Raspunsul pentru task-ul nr.2
             //  int[]  A = {3, 8, 9, 7, 6};
-
-            //
             //  Console.Write("Our String is: \n");
             //  for (int i = 0 ; i < A.Length; i++) 
             //  {
@@ -40,9 +40,7 @@ namespace APP_1
             // int[] Array3 = new int[] {9, 3, 9, 3, 9, 7, 9};
             //  int result3 = Task3.findUnpairdLINQ(Array3);
             //  Console.WriteLine("Raspunsul Task3: " + result3);
-
-
-
+            
             //Raspunsul pentru task-ul nr.4
             // int result4 = Task4.sol(10, 85, 2);
             // Console.WriteLine("Raspunsul Task4: " + result4);
@@ -72,38 +70,28 @@ namespace APP_1
 
 
             // Raspunsul programului nr.7
-            int[] arr7 = {1, 3, 1, 4, 2, 3, 5, 4};
-            Console.WriteLine("\n---------------------------------");
-            Console.WriteLine("Array-ul initial este: ");
-            for (int i = 0; i < arr7.Length; i++)
-            {
-                Console.Write ( arr7[i] + "\t");
-            }
-            Console.WriteLine("\n---------------------------------");
-            int result7 = Task7.solution7(arr7);
-            Console.WriteLine("Raspunsul Task7: " + result7);
-
-
-            // Raspunsul programului nr.10
-            // int[] poka = {1,2,3,4,5};
-            // int z;
-            // z = poka.Length;
-            // Console.WriteLine( "Lungimea siru;ui este:" + z);
-            // double m, n = 0;
-            // Console.WriteLine(poka.Max()); // returns the largest value
-            // m = poka.Max();
-            // Console.WriteLine("Numarul maxim este: " + m);
-            // do
+            // int[] arr7 = {1, 3, 1, 4, 2, 3, 5, 4};
+            // Console.WriteLine("\n---------------------------------");
+            // Console.WriteLine("Array-ul initial este: ");
+            // for (int i = 0; i < arr7.Length; i++)
             // {
-            //     n++;
-            // } while (n < m);
-            //
-            // if (n == m)
-            // {
-            //     n = n + 1;
+            //     Console.Write ( arr7[i] + "\t");
             // }
-            //
-            // Console.WriteLine("Numarul final este: " + n);
+            // Console.WriteLine("\n---------------------------------");
+            // int result7 = Task7.solution7(arr7);
+            // Console.WriteLine("Raspunsul Task7: " + result7);
+
+            // Raspunsul programului nr.8
+            // int[] arr8 = {4, 1, 3, 2};
+            // int result8 = Task8.Solution(arr8);
+            // Console.WriteLine("Raspunsul Task8: " + result8);
+
+            // Problema 9 nu mi-a reusit sa o realize :(
+            
+            //Raspunsul programului nr.10
+            int[] arr10 = {1,2,3,4,5};
+            int result10 = Task10.Solution(arr10);
+            Console.WriteLine("Raspunsul Task10: " + result10);
 
             // Raspunsul pentru task-ul nr.11
             // int result11 = Task11.solution(new[] {0, 1, 0, 1, 1});
