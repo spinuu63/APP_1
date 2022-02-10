@@ -100,7 +100,7 @@ namespace APP_1
 
             // Raspunsul pentru task-ul nr.12 
             // int result12 = Task12.found(6, 11, 2);
-            // Console.WriteLine("Raspunsul task-ului 12 este: " + result12);
+            // Console.WriteLine("Raspunsul Task12: " + result12);
 
 
         }
