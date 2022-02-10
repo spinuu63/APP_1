@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Linq;
 using APP_1.BinaryGap;
 using APP_1.CyclinRotation;
 using APP_1.FrogJmp;
@@ -7,6 +6,7 @@ using System.Linq;
 using APP_1.PassingCars;
 using APP_1.CountDiv;
 using APP_1.OddOccurrencesInArray;
+using APP_1.PermMissingElem;
 
 namespace APP_1
 {
@@ -45,27 +45,27 @@ namespace APP_1
             // Console.WriteLine("Raspunsul Task4: " + result4);
 
             // Raspunsul programului nr.5
-            // int[]  Arr = {2, 3, 1,4, 6};
-            // for (int i = 0; i < Arr.Length; i++)
-            // {
-            //     Console.Write(Arr[i] + "\t");
-            // }
-            //
-            // Console.WriteLine();
-            // Array.Sort(Arr);
-            // foreach (var i  in Arr)
-            // {
-            //     Console.Write(i + "\t");
-            // }
-            //
-            // Console.WriteLine("\n\n" + "The missing digit in this string is:\n " + Solution(Arr));
-            // }
-            //
-            // public static int Solution(int[] Arr)
-            // {
-            //     return (int)((Arr.Length == 0) ? 1 : ((long)(Arr.Length + 1) * (Arr.Length + 2) / 2) - Arr.Sum(x => (long)x));
+            int[]  Arr5 = {2, 3, 1,4, 6};
+            Console.WriteLine("\n---------------------------------");
+            Console.WriteLine("Array-ul initial este: ");
+            for (int i = 0; i < Arr5.Length; i++)
+            {
+                Console.Write(Arr5[i] + "\t");
+            }
+            
+            Console.WriteLine("\nArray-ul sortat este:");
+            Array.Sort(Arr5);
+            foreach (var i  in Arr5)
+            {
+                Console.Write(i + "\t");
+            }
+            Console.WriteLine("\n---------------------------------");
+            Console.WriteLine("Raspunsul Task5: " + Task5.Solution(Arr5));
+            }
 
-            // Raspunsul programului nr.7
+        
+
+        // Raspunsul programului nr.7
             // int n = 5, index = 0;
             // int[] arr7 = {1, 3, 1, 4, 2, 3, 5, 3};
             // for (int i = 0; i < arr7.Length; i++)
@@ -113,6 +113,6 @@ namespace APP_1
             // Console.WriteLine("Raspunsul task-ului 12 este: " + result12);
 
 
-        }
+        
     }
 }
