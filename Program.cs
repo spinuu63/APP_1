@@ -6,24 +6,23 @@ using APP_1.FrogJmp;
 using System.Linq;
 using APP_1.PassingCars;
 using APP_1.CountDiv;
-
-//using APP_1.BinaryGap;
+using APP_1.OddOccurrencesInArray;
 
 namespace APP_1
 {
     class Program
     {
-        
+
 
         private static void Main(string[] args)
         {
-            //Raspunsul pentru task-ul nr.1
-            int result1 = Task1.task1(1041);
-            Console.WriteLine(result1);
+            // Raspunsul pentru task-ul nr.1
+             // int result1 = Task1.task1(1041);
+             // Console.WriteLine("Raspunsul Task1: " + result1);
 
             // Raspunsul pentru task-ul nr.2
             //  int[]  A = {3, 8, 9, 7, 6};
-            //  // int k = 3;
+            
             //
             //  Console.Write("Our String is: \n");
             //  for (int i = 0 ; i < A.Length; i++) 
@@ -32,31 +31,14 @@ namespace APP_1
             //  }
             //
             //  int[] result2 = Task2.solution(A, 3);
-            // Console.WriteLine(result2);
+            // Console.WriteLine("Raspunsul Task2: " + result2);
 
-            // Raspunsul programului nr.3
-            //    int[] pairsArray = new int[] {9, 3, 9, 3, 9, 7, 9};
-            //    int resultunpaired = findUnpairdLINQ(pairsArray);
-            //    Console.WriteLine(resultunpaired);
-            //    Console.Read();
-            // }
-            //
-            //
-            // private static int findUnpairdLINQ(int[] pairsArray)
-            // {
-            //     return pairsArray.Aggregate(0, (prev, next) => prev ^= next);
-            // }
-            //
-            // private static int findUnpired(int[] pairsArray)
-            // {
-            //     int unapairednumber = 0;
-            //
-            //     for (int i = 0; i < pairsArray.Length; i++)
-            //     {
-            //         unapairednumber ^= pairsArray[i];
-            //     }
-            //
-            //     return unapairednumber;
+            // //Raspunsul programului nr.3
+            // int[] Array3 = new int[] {9, 3, 9, 3, 9, 7, 9};
+            //  int result3 = Task3.findUnpairdLINQ(Array3);
+            //  Console.WriteLine("Raspunsul Task3: " + result3);
+
+
 
             // Raspunsul pentru task-ul nr.4
             // int result4 = Task4.sol(10, 85, 2);
@@ -126,10 +108,11 @@ namespace APP_1
             // int result11 = Task11.solution(new[] {0, 1, 0, 1, 1});
             // Console.WriteLine("Raspunsul task-ului 11 este: " + result11);
 
-            int result12 = Task12.found(6, 11, 2);
-            Console.WriteLine("Raspunsul task-ului 12 este: " + result12);
+            // Raspunsul pentru task-ul nr.12 
+            // int result12 = Task12.found(6, 11, 2);
+            // Console.WriteLine("Raspunsul task-ului 12 este: " + result12);
+
 
         }
-    
     }
 }
