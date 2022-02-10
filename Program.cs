@@ -40,9 +40,9 @@ namespace APP_1
 
 
 
-            // Raspunsul pentru task-ul nr.4
+            //Raspunsul pentru task-ul nr.4
             // int result4 = Task4.sol(10, 85, 2);
-            // Console.WriteLine(result4);
+            // Console.WriteLine("Raspunsul Task4: " + result4);
 
             // Raspunsul programului nr.5
             // int[]  Arr = {2, 3, 1,4, 6};

@@ -4,6 +4,7 @@ namespace APP_1.FrogJmp
     {
         public static int sol(int x, int y, int d)
         {
+            
             int distance = y - x;
             int steps = distance / d;
             if (distance % d != 0)
