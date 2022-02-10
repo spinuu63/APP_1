@@ -12,6 +12,7 @@ using APP_1.FrogJmp;
 using APP_1.FrogRiverOne;
 using APP_1.PermCheck;
 using APP_1.MissingInteger;
+using APP_1.MinAvgTwoSlice;
 
 namespace APP_1
 {
@@ -102,7 +103,10 @@ namespace APP_1
             // int result12 = Task12.found(6, 11, 2);
             // Console.WriteLine("Raspunsul Task12: " + result12);
 
-
+            // Raspunsul pentru task-ul nr.14
+            // int[] arr14 = {4, 2, 2, 5, 1, 5, 8};
+            // int result14 = Task14.solution14(arr14);
+            // Console.WriteLine("Raspunsul Task14: " + result14);
         }
     }
 }
