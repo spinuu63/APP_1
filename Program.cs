@@ -7,6 +7,7 @@ using APP_1.PassingCars;
 using APP_1.CountDiv;
 using APP_1.OddOccurrencesInArray;
 using APP_1.PermMissingElem;
+using APP_1.TapeEquilibrium;
 
 namespace APP_1
 {
@@ -17,12 +18,12 @@ namespace APP_1
         private static void Main(string[] args)
         {
             // Raspunsul pentru task-ul nr.1
-             // int result1 = Task1.task1(1041);
-             // Console.WriteLine("Raspunsul Task1: " + result1);
+            // int result1 = Task1.task1(1041);
+            // Console.WriteLine("Raspunsul Task1: " + result1);
 
             // Raspunsul pentru task-ul nr.2
             //  int[]  A = {3, 8, 9, 7, 6};
-            
+
             //
             //  Console.Write("Our String is: \n");
             //  for (int i = 0 ; i < A.Length; i++) 
@@ -45,27 +46,30 @@ namespace APP_1
             // Console.WriteLine("Raspunsul Task4: " + result4);
 
             // Raspunsul programului nr.5
-            int[]  Arr5 = {2, 3, 1,4, 6};
-            Console.WriteLine("\n---------------------------------");
-            Console.WriteLine("Array-ul initial este: ");
-            for (int i = 0; i < Arr5.Length; i++)
-            {
-                Console.Write(Arr5[i] + "\t");
-            }
-            
-            Console.WriteLine("\nArray-ul sortat este:");
-            Array.Sort(Arr5);
-            foreach (var i  in Arr5)
-            {
-                Console.Write(i + "\t");
-            }
-            Console.WriteLine("\n---------------------------------");
-            Console.WriteLine("Raspunsul Task5: " + Task5.Solution(Arr5));
-            }
+            // int[]  Arr5 = {2, 3, 1,4, 6};
+            // Console.WriteLine("\n---------------------------------");
+            // Console.WriteLine("Array-ul initial este: ");
+            // for (int i = 0; i < Arr5.Length; i++)
+            // {
+            //     Console.Write(Arr5[i] + "\t");
+            // }
+            //
+            // Console.WriteLine("\nArray-ul sortat este:");
+            // Array.Sort(Arr5);
+            // foreach (var i  in Arr5)
+            // {
+            //     Console.Write(i + "\t");
+            // }
+            // Console.WriteLine("\n---------------------------------");
+            // Console.WriteLine("Raspunsul Task5: " + Task5.Solution(Arr5));
 
-        
+            // Raspunsul programului nr.6
+            int[] arr6 = {3, 1, 2, 4, 3};
+            int result6 = Task6.solution(arr6);
+            Console.WriteLine("Raspunsul Task6: " + result6);
 
-        // Raspunsul programului nr.7
+
+            // Raspunsul programului nr.7
             // int n = 5, index = 0;
             // int[] arr7 = {1, 3, 1, 4, 2, 3, 5, 3};
             // for (int i = 0; i < arr7.Length; i++)
@@ -113,6 +117,6 @@ namespace APP_1
             // Console.WriteLine("Raspunsul task-ului 12 este: " + result12);
 
 
-        
+        }
     }
 }
