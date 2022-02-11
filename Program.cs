@@ -13,6 +13,7 @@ using APP_1.FrogRiverOne;
 using APP_1.PermCheck;
 using APP_1.MissingInteger;
 using APP_1.MinAvgTwoSlice;
+using APP_1.Distinct;
 
 namespace APP_1
 {
@@ -107,6 +108,11 @@ namespace APP_1
             // int[] arr14 = {4, 2, 2, 5, 1, 5, 8};
             // int result14 = Task14.solution14(arr14);
             // Console.WriteLine("Raspunsul Task14: " + result14);
+            
+            // Raspunsul pentru task-ul nr.15
+            int[] arr15 = {2, 1, 1, 2, 3, 1};
+            int result15 = Task15.solution15(arr15);
+            Console.WriteLine("\nRaspunsul Task15: " + result15);
         }
     }
 }
