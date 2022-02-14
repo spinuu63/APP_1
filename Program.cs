@@ -15,7 +15,8 @@ using APP_1.MissingInteger;
 using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
 using APP_1.MaxProductOfThree;
-using APP_1.Microsoft;
+using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections;
+
 
 namespace APP_1
 {
@@ -114,16 +115,22 @@ namespace APP_1
             // int[] arr14 = {4, 2, 2, 5, 1, 5, 8};
             // int result14 = Task14.solution14(arr14);
             // Console.WriteLine("Raspunsul Task14: " + result14);
-            
+
             // Raspunsul pentru task-ul nr.15
             // int[] arr15 = {2, 1, 1, 2, 3, 1, 4,4,4,5,6,8};
             // int result15 = Task15_Artur.solution15(arr15);
             // Console.WriteLine("\nRaspunsul Task15: " + result15);
             
             // Raspunsul pentru task-ul nr.16
-            int[] arr16 = {-3, 1, 2, -2, 5, 6};
-            int result16 = Task16.solution16(arr16);
-            Console.WriteLine("Raspunsul Task16: " + result16);
+            // int[] arr16 = {-3, 1, 2, -2, 5, 6};
+            // int result16 = Task16.solution16(arr16);
+            // Console.WriteLine("Raspunsul Task16: " + result16);
+            
+            // Raspunsul pentru task-ul nr.18
+            int[] arr18 = {1,5,2,1,4,0};
+            int resul18 = Task18.solution18(arr18);
+            Console.WriteLine("Raspunsul Task18: " + resul18);
+
         }
     }
 }
