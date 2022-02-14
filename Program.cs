@@ -14,6 +14,8 @@ using APP_1.PermCheck;
 using APP_1.MissingInteger;
 using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
+using APP_1.MaxProductOfThree;
+using APP_1.Microsoft;
 
 namespace APP_1
 {
@@ -23,6 +25,10 @@ namespace APP_1
 
         private static void Main(string[] args)
         {
+            //Microsoft Problem
+            // int solution = Micro_problem.sollution( 0 ,0);
+            // Console.WriteLine("Raspunsul problemei este: " + solution);
+            
             // Raspunsul pentru task-ul nr.1
             // int result1 = Task1.task1(1041);
             // Console.WriteLine("Raspunsul Task1: " + result1);
@@ -110,9 +116,14 @@ namespace APP_1
             // Console.WriteLine("Raspunsul Task14: " + result14);
             
             // Raspunsul pentru task-ul nr.15
-            int[] arr15 = {2, 1, 1, 2, 3, 1};
-            int result15 = Task15.solution15(arr15);
-            Console.WriteLine("\nRaspunsul Task15: " + result15);
+            // int[] arr15 = {2, 1, 1, 2, 3, 1, 4,4,4,5,6,8};
+            // int result15 = Task15_Artur.solution15(arr15);
+            // Console.WriteLine("\nRaspunsul Task15: " + result15);
+            
+            // Raspunsul pentru task-ul nr.16
+            int[] arr16 = {-3, 1, 2, -2, 5, 6};
+            int result16 = Task16.solution16(arr16);
+            Console.WriteLine("Raspunsul Task16: " + result16);
         }
     }
 }
