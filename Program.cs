@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using APP_1.BinaryGap;
 using APP_1.CyclinRotation;
 using APP_1.FrogJmp;
@@ -15,7 +17,7 @@ using APP_1.MissingInteger;
 using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
 using APP_1.MaxProductOfThree;
-using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections;
+using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets;
 
 
 namespace APP_1
@@ -127,9 +129,40 @@ namespace APP_1
             // Console.WriteLine("Raspunsul Task16: " + result16);
             
             // Raspunsul pentru task-ul nr.18
-            int[] arr18 = {1,5,2,1,4,0};
-            int resul18 = Task18.solution18(arr18);
-            Console.WriteLine("Raspunsul Task18: " + resul18);
+            // int[] arr18 = {1,5,2,1,4,0};
+            // int resul18 = Task18.solution18(arr18);
+            // Console.WriteLine("Raspunsul Task18: " + resul18);
+
+            // Raspunsul pentru task-ul nr.19
+            // String[] arr19 = {"{"+"}"+"("+")"+"["+"]"};
+            // int resul19 = Task19.solution19(arr19);
+            // Console.WriteLine("\n" + "Raspunsul Task19: " + resul19);
+
+            string a = "([)()]";
+            int result19 = Task19.solution19(a);
+            Console.Write("Raspunsul Task19: " + result19);
+
+            // IDictionary<int, String> numberNames = new Dictionary<int, string>();
+            // numberNames.Add(1, "Gheorghe");
+            // numberNames.Add(2, "Dan");
+            // numberNames.Add(3, "Denis");
+            //
+            // foreach (KeyValuePair<int, string> md in numberNames)
+            // {
+            //     Console.WriteLine("|{0}| {1}|" ,md.Key, md.Value);
+            // }
+            //
+            // var cities = new Dictionary<string, string>(){
+            //     {"UK","London, Manchester, Birmingham"},
+            //     {"USA","Chicago, New York, Washington"},
+            //     {"India","Mumbai, New Delhi, Pune"},
+            //     {"Moldova", "Chisinau, Balti, Cahul"}
+            // };
+            //
+            // foreach (var md in cities)
+            // {
+            //     Console.WriteLine("Contry: {0}, City: {1}" ,md.Key, md.Value);
+            // }
 
         }
     }
