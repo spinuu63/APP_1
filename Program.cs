@@ -17,7 +17,7 @@ using APP_1.MissingInteger;
 using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
 using APP_1.MaxProductOfThree;
-using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets;
+using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets; using APP_1.Fish;
 
 
 namespace APP_1
@@ -134,13 +134,15 @@ namespace APP_1
             // Console.WriteLine("Raspunsul Task18: " + resul18);
 
             // Raspunsul pentru task-ul nr.19
-            // String[] arr19 = {"{"+"}"+"("+")"+"["+"]"};
-            // int resul19 = Task19.solution19(arr19);
-            // Console.WriteLine("\n" + "Raspunsul Task19: " + resul19);
-
-            string a = "([)()]";
-            int result19 = Task19.solution19(a);
-            Console.Write("Raspunsul Task19: " + result19);
+            // string a = "([)()]";
+            // int result19 = Task19.solution19(a);
+            // Console.Write("Raspunsul Task19: " + result19);
+            
+            // Raspunsul pentru task-ul nr.20
+            int[] arr20a = {4,3,2,1,5};
+            int[] arr20b = {0, 1, 0, 0, 0};
+            int result20 = Task20.solution20(arr20a, arr20b);
+            Console.WriteLine("Raspunsul Task20: " + result20);
 
             // IDictionary<int, String> numberNames = new Dictionary<int, string>();
             // numberNames.Add(1, "Gheorghe");
