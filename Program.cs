@@ -17,7 +17,7 @@ using APP_1.MissingInteger;
 using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
 using APP_1.MaxProductOfThree;
-using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets; using APP_1.Fish;
+using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets; using APP_1.Fish; using APP_1.Nesting;
 
 
 namespace APP_1
@@ -136,36 +136,18 @@ namespace APP_1
             // Raspunsul pentru task-ul nr.19
             // string a = "([)()]";
             // int result19 = Task19.solution19(a);
-            // Console.Write("Raspunsul Task19: " + result19);
-            
+            // Console.Write("Raspunsul Task19: " + result19);          
+                
             // Raspunsul pentru task-ul nr.20
-            int[] arr20a = {4,3,2,1,5};
-            int[] arr20b = {0, 1, 0, 0, 0};
-            int result20 = Task20.solution20(arr20a, arr20b);
-            Console.WriteLine("Raspunsul Task20: " + result20);
-
-            // IDictionary<int, String> numberNames = new Dictionary<int, string>();
-            // numberNames.Add(1, "Gheorghe");
-            // numberNames.Add(2, "Dan");
-            // numberNames.Add(3, "Denis");
-            //
-            // foreach (KeyValuePair<int, string> md in numberNames)
-            // {
-            //     Console.WriteLine("|{0}| {1}|" ,md.Key, md.Value);
-            // }
-            //
-            // var cities = new Dictionary<string, string>(){
-            //     {"UK","London, Manchester, Birmingham"},
-            //     {"USA","Chicago, New York, Washington"},
-            //     {"India","Mumbai, New Delhi, Pune"},
-            //     {"Moldova", "Chisinau, Balti, Cahul"}
-            // };
-            //
-            // foreach (var md in cities)
-            // {
-            //     Console.WriteLine("Contry: {0}, City: {1}" ,md.Key, md.Value);
-            // }
-
+            // int[] arr20a = {4,3,2,1,5};
+            // int[] arr20b = {0, 1, 0, 0, 0};
+            // int result20 = Task20.solution20(arr20a, arr20b);
+            // Console.WriteLine("Raspunsul Task20: " + result20);
+            
+            // Raspunsul pentru task-ul nr.21
+            string string21 = "(()(())())";
+            int result21 = Task21.solution21(string21);
+            Console.Write("Raspunsul Task21: " + result21);
         }
     }
 }
