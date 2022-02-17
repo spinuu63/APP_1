@@ -18,7 +18,7 @@ using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
 using APP_1.MaxProductOfThree;
 using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets; using APP_1.Fish; using APP_1.Nesting;
-using APP_1.StoneWall;
+using APP_1.StoneWall; using APP_1.Dominator;
 
 
 namespace APP_1
@@ -151,9 +151,14 @@ namespace APP_1
             // Console.Write("Raspunsul Task21: " + result21);
             
             // Raspunsul pentru task-ul nr.22
-            int[] arr22 = {8,8,5,7,9,8,7,4,8 };
-            int result22 = Task22.solution22(arr22);
-            Console.WriteLine("Raspunsul Task22: " + result22);
+            // int[] arr22 = {8,8,5,7,9,8,7,4,8 };
+            // int result22 = Task22.solution22(arr22);
+            // Console.WriteLine("Raspunsul Task22: " + result22);
+            
+            // Raspunsul pentru task-ul nr.23
+            int[] arr23 = {3, 4, 3, 2, 3, -1, 3, 3};
+            int result23 = Task23.solution23(arr23);
+            Console.WriteLine("Rezultatul pentru task23: " + result23);
         }
     }
 }
