@@ -18,7 +18,7 @@ using APP_1.MinAvgTwoSlice;
 using APP_1.Distinct;
 using APP_1.MaxProductOfThree;
 using APP_1.Microsoft; using APP_1.NumberOfDiscIntersections; using APP_1.Brackets; using APP_1.Fish; using APP_1.Nesting;
-using APP_1.StoneWall; using APP_1.Dominator; using APP_1.EquiLeader; using APP_1.MaxProfit;
+using APP_1.StoneWall; using APP_1.Dominator; using APP_1.EquiLeader; using APP_1.MaxProfit; using APP_1.MaxSlinceSum;
 
 
 namespace APP_1
@@ -166,9 +166,15 @@ namespace APP_1
             // Console.WriteLine("Rezultatul pentru task24: " + result24);
          
             // Raspunsul pentri task-ul nr.25
-            int[] arr25 = {23171, 21011, 21123, 21366, 21013, 21367};
-            int result25 = Task25.solution25(arr25);
-            Console.WriteLine("Rezultatul pentru task25: " + result25);
+            // int[] arr25 = {23171, 21011, 21123, 21366, 21013, 21367};
+            // int result25 = Task25.solution25(arr25);
+            // Console.WriteLine("Rezultatul pentru task25: " + result25);
+            
+            // Raspunsul pentru task-ul nr.26
+            int[] arr26 = {3, 2, -6, 4, 0};
+            int result26 = Task26.solution26(arr26);
+            Console.WriteLine("Rezultatul pentru task26: " + result26);
+
         }
     }
 }
